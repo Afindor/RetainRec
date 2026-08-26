@@ -1,0 +1,8 @@
+{
+  "dataset_config": "configs/datasets/kuairand.json",
+  "method_config": "configs/methods/retainrec.json",
+  "data_dir": "data/processed/kuairand",
+  "artifact_dir": "artifacts/kuairand/retainrec",
+  "seeds": [2024001, 2024002, 2024003, 2024004, 2024005],
+  "backend": "vllm"
+}

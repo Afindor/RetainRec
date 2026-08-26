@@ -1,0 +1,18 @@
+{
+  "name": "smoke",
+  "seed": 2024001,
+  "validation_users": 2,
+  "initial_support": 4,
+  "trigger_support": 2,
+  "guard_pairs_per_relation": 2,
+  "audit_pairs_per_relation": 2,
+  "audit_horizon": 2,
+  "future_window": 3,
+  "minimum_future_evidence": 2,
+  "candidate_count": 6,
+  "pair_pass_threshold": 0.50,
+  "future_validity_threshold": 0.50,
+  "allowed_attributes": ["genre", "duration"],
+  "context_attributes": ["genre"],
+  "grammar_version": "grammar-v1"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "kuairand",
+  "seed": 2024001,
+  "validation_users": 150,
+  "initial_support": 85,
+  "trigger_support": 5,
+  "guard_pairs_per_relation": 10,
+  "audit_pairs_per_relation": 10,
+  "audit_horizon": 20,
+  "future_window": 45,
+  "minimum_future_evidence": 5,
+  "candidate_count": 100,
+  "pair_pass_threshold": 0.60,
+  "future_validity_threshold": 0.60,
+  "allowed_attributes": ["category", "semantic_tags", "duration", "popularity"],
+  "context_attributes": ["duration", "category"],
+  "grammar_version": "grammar-v1"
+}
+

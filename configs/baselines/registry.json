@@ -1,0 +1,24 @@
+{
+  "published_methods": [
+    {"name": "CCD", "citation_key": "lee2024ccd", "family": "continual_model"},
+    {"name": "PISA", "citation_key": "yoo2025pisa", "family": "continual_model"},
+    {"name": "PESO", "citation_key": "yoo2026peso", "family": "continual_adapter"},
+    {"name": "RAIE", "citation_key": "zeng2026raie", "family": "continual_adapter"},
+    {"name": "SAGER", "citation_key": "tao2026sager", "family": "text_policy"},
+    {"name": "PURE", "citation_key": "bang2025pure", "family": "profile_memory", "datasets": ["movietv"]}
+  ],
+  "quality_anchors": [
+    {"name": "LightGCN", "citation_key": "he2020lightgcn"},
+    {"name": "SASRec", "citation_key": "kang2018sasrec"},
+    {"name": "LLMRec", "citation_key": "wei2024llmrec"},
+    {"name": "A-LLMRec", "citation_key": "kim2024allmrec"}
+  ],
+  "controlled_diagnostics": [
+    "No Update",
+    "Direct Policy Rewrite",
+    "Uniform Guard",
+    "Regression Replay",
+    "Single Evolving LoRA"
+  ],
+  "adapter_contract": "external-json-v1"
+}

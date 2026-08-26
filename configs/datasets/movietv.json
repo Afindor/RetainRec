@@ -1,0 +1,19 @@
+{
+  "name": "movietv",
+  "seed": 2024001,
+  "validation_users": 848,
+  "initial_support": 12,
+  "trigger_support": 2,
+  "guard_pairs_per_relation": 6,
+  "audit_pairs_per_relation": 6,
+  "audit_horizon": 4,
+  "future_window": 8,
+  "minimum_future_evidence": 3,
+  "candidate_count": 20,
+  "pair_pass_threshold": 0.60,
+  "future_validity_threshold": 0.60,
+  "allowed_attributes": ["genre", "year", "director", "content_type"],
+  "context_attributes": ["genre", "content_type"],
+  "grammar_version": "grammar-v1"
+}
+

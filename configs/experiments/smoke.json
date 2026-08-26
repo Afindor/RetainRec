@@ -1,0 +1,9 @@
+{
+  "dataset_config": "configs/datasets/smoke.json",
+  "method_config": "configs/methods/retainrec.json",
+  "data_dir": "data/examples/smoke",
+  "artifact_dir": "artifacts/smoke",
+  "seeds": [2024001, 2024002],
+  "backend": "deterministic"
+}
+
